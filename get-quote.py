@@ -1,3 +1,4 @@
+import random 
 def prime():
   #print("Keep it logically awesome.")
 
@@ -5,7 +6,7 @@ def prime():
   quotes = f.readlines()
   f.close()
 
-  print(quotes[0])
+  print(random.choice(quotes))
 
 if __name__== "__main__":
   prime()
